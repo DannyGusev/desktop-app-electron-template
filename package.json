@@ -4,6 +4,7 @@
   "description": "test",
   "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/DannyGusev/desktop-app-electron-template/issues"
   },
-  "homepage": "https://github.com/DannyGusev/desktop-app-electron-template#readme"
+  "homepage": "https://github.com/DannyGusev/desktop-app-electron-template#readme",
+  "devDependencies": {
+    "electron": "^8.0.1"
+  }
 }
